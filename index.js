@@ -1,10 +1,10 @@
 //模块加载
-var yk = require("yk");
-if(yk){
-    yk.test();
-}
+//var yk = require("yk");
+//yk.test();
 
-console.log(module.paths);
+var test = require("./src/test");
+test.test();
+//console.log(module.paths);
 
 //var fs = require("fs");
 //var filePath = "file1.txt";
